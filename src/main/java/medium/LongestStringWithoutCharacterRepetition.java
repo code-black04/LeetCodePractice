@@ -1,6 +1,12 @@
+package main.java.medium;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
+
+/**
+ * {@link https://leetcode.com/problems/longest-substring-without-repeating-characters/description/}
+ */
 
 public class LongestStringWithoutCharacterRepetition {
 

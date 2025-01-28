@@ -1,5 +1,11 @@
+package main.java.hard;
+
 import java.util.Arrays;
-import java.util.stream.Collectors;
+
+/**
+ *
+ * {@link https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=problem-list-v2&envId=array}
+ */
 
 public class MedianOfTwoSortedArrays {
     public static void main(String[] args) {

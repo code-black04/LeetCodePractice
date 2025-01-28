@@ -1,6 +1,11 @@
+package main.java.easy;
+
 import java.util.Arrays;
 import java.util.HashMap;
 
+/**
+ * {@link https://leetcode.com/problems/two-sum/description/}
+ */
 public class TwoSum {
     public static void main(String[] args) {
         int[] inputArray = {3, 2, 4};
