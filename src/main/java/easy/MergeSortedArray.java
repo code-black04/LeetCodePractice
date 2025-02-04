@@ -6,8 +6,8 @@ package main.java.easy;
 public class MergeSortedArray {
 
     public static void main(String[] args) {
-        int[] nums1 = {4, 0, 0, 0, 0, 0};  // nums1 has extra space
-        int[] nums2 = {1, 2, 3, 5, 6};     // nums2 needs to be merged
+        int[] nums1 = {4, 0, 0, 0, 0, 0};
+        int[] nums2 = {1, 2, 3, 5, 6};
         int m = 1;
         int n = 5;
 
