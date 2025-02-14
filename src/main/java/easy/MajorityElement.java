@@ -2,7 +2,10 @@ package main.java.easy;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
+
+/**
+ * {@link https://leetcode.com/problems/majority-element/description}
+ */
 
 public class MajorityElement {
 
