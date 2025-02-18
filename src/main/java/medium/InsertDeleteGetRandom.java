@@ -1,9 +1,7 @@
 package main.java.medium;
 
-import java.security.SecureRandom;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
-import java.util.Map;
 import java.util.Random;
 
 /**
@@ -14,12 +12,12 @@ public class InsertDeleteGetRandom {
 
     public static void main(String[] args) {
         RandomizedSet randomizedSet = new RandomizedSet();
-        System.out.println(randomizedSet.insert(1)); // true
-        System.out.println(randomizedSet.insert(2)); // true
-        System.out.println(randomizedSet.insert(2)); // false
-        System.out.println(randomizedSet.remove(1)); // true
-        System.out.println(randomizedSet.remove(3)); // false
-        System.out.println(randomizedSet.getRandom()); // Random element from the set
+        System.out.println(randomizedSet.insert(1));
+        System.out.println(randomizedSet.insert(2));
+        System.out.println(randomizedSet.insert(2));
+        System.out.println(randomizedSet.remove(1));
+        System.out.println(randomizedSet.remove(3));
+        System.out.println(randomizedSet.getRandom());
 
     }
 
@@ -29,11 +27,11 @@ public class InsertDeleteGetRandom {
 class RandomizedSet {
 
     private LinkedHashSet<Integer> linkedHashSet;
-    private SecureRandom random;
+    private Random random;
 
     public RandomizedSet() {
         linkedHashSet = new LinkedHashSet<>();
-        random = new SecureRandom();
+        random = new Random();
     }
 
     public boolean insert(int val) {
