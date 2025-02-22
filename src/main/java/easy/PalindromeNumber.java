@@ -1,5 +1,8 @@
 package main.java.easy;
 
+/**
+ * {@link https://leetcode.com/problems/palindrome-number/description}
+ */
 public class PalindromeNumber {
 
     public static void main(String[] args) {
