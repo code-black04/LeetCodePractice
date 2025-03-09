@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- *
+ * {@link https://leetcode.com/problems/valid-square/description/}
  */
 public class ValidSquare {
     //d=√((x2 – x1)² + (y2 – y1)²).
